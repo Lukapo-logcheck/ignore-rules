@@ -1,0 +1,11 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtp\[[[:digit:]]+\]: [[:upper:][:digit:]]+: to=<[^[:space:]]+>, relay=[._[:alnum:]-]+\[[.:[:xdigit:]]+\]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ postfix/smtpd?\[[0-9]+\]: (Anonymous )?TLS connection established (to|from) [^[:space:]]+: (TLSv1|SSLv[23]|TLSv1.2|TLSv1.1) with cipher [^[:space:]]+ \([/0-9]+ bits\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: warning: hostname
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: SSL_accept error from [._[:alnum:]-]+\[[[:xdigit:].:]{3,39}\]: (Connection timed out|lost connection|Connection reset by peer)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[0-9]+\]: message repeated [0-9]+ times
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/qmgr\[[0-9]+\]: message repeated [0-9]+ times
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/master\[[[:digit:]]+\]: reload -- version [.[:digit:]]+, configuration /etc/postfix$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/(smtps/)?smtpd\[[[:digit:]]+\]: (dis)?connect from [^[:space:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: warning: TLS library problem: [[:digit:]]+:error:[[:xdigit:]]+:SSL routines:SSL3_READ_BYTES:(reason\([[:digit:]]+\)|sslv3 alert (unexpected message|bad certificate|handshake failure)):s3_pkt\.c:[[:digit:]]+:SSL alert number (0|10|42|40):$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: improper command pipelining after DATA from [[:alnum:]]+\[[[:xdigit:].]+\]:
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/(smtps/)?smtpd\[[[:digit:]]+\]: NOQUEUE: reject: RCPT from unknown\[[[:xdigit:].:]+\]: 450 [[:digit:].]+ Client host rejected: cannot find your reverse hostname, \[[[:xdigit:].:]+\]; from=(<.*>)? to=(<.*>)? proto=ESMTP helo=(<.*>)?$

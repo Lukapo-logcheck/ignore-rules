@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apache2:([[:space:]]+\[[[:alnum:]-]+[[:space:]][[:digit:]:]+[[:space:]][[:alnum:]]+\])? mail\(\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apache2\[[[:digit:]]+\]: Reloading web server: apache

@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ proftpd: pam_unix\(proftpd:auth\): check pass; user [[:alnum:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ proftpd: pam_unix\(proftpd:auth\): authentication failure; logname= uid=0 euid=0 tty=/dev/[[:alnum:]]+ ruser=[[:alnum:].]+ rhost=[-_.:[:alnum:]]+([[:space:]]+user=[[:alnum:].]+)?$

@@ -1,0 +1,2 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ CRON\[[0-9]+\]: pam_unix\(cron:session\): session opened for user [[:alnum:]_-]+ by \(uid=[[:digit:]]\)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ CRON\[[0-9]+\]: pam_unix\(cron:session\): session closed for user [[:alnum:]_-]+$

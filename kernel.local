@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: \[[ 0-9\.]+\] net_ratelimit: [0-9]+ callbacks suppressed$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: device [[:alnum:]]+ entered promiscuous mode$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: [[:alnum:]]+: port [[:digit:]]\([[:alnum:]]+\) entering forwarding state$

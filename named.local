@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ named\[[[[:digit:]]+\]:[[:space:]]+client
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ named\[[[[:digit:]]+\]:[[:space:]]+validating
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ named\[[[[:digit:]]+\]:[[:space:]]+DNS format error from [[:xdigit:]:.]+#[[:digit:]]+ resolving [[:alnum:].]+/(A|AAAA|CNAME) for client [[:alnum:].:]+#[[:digit:]]+: invalid response$

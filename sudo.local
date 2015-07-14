@@ -1,0 +1,5 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo:[[:space:]]+[_[:alnum:].-]+ : TTY=(unknown|(pts/|tty|vc/)[[:digit:]]+) ; PWD=[^;]+ ; USER=[._[:alnum:]-]+ ; COMMAND=
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sudo: pam_unix\(sudo:auth\): authentication failure; logname=[[:alnum:]]+ uid=[0-9]+ euid=[0-9]+ tty=[[:alnum:]/]+ ruser= rhost= user=[[:alnum:]]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo: pam_[[:alnum:]]+\(sudo:session\): session closed for user [[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo: pam_[[:alnum:]]+\(sudo:auth\): authentication failure; logname=[[:alnum:].]+ uid=[[:digit:]]+ euid=[[:digit:]]+ tty=/dev/pts/[[:digit:]]+ ruser=[[:alnum:].]+ (rhost=([[:space:]]+|[[:alnum:]]+))?user=[[:alnum:].]+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo: pam_[[:alnum:]]+\(sudo:session\): session closed for user [[:alnum:]-]+ by [[:alnum:].]+\(uid=[[:digit:]]+\)$

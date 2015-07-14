@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ opendkim\[[[:digit:]]+\]: [A-Z0-9]{10}: DKIM-Signature header added \(s=[[:alnum:].-]+, d=[[:alnum:].-]+\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ opendkim\[[[:digit:]]+\]: [A-Z0-9]{10}: not authenticated$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ opendkim\[[[:digit:]]+\]: [A-Z0-9]{10}: [[:alnum:].]+ \[[[:xdigit:].:]+\] not internal$
